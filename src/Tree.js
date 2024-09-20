@@ -311,7 +311,7 @@ export const VibhorsTeam = [
       avatar:
       AbhilashaPic,
       department: "",
-      name: "Abhilasha Chourey test",
+      name: "Abhilasha Chourey",
       title: "Quality Analyst",
       totalReports: 1,
     },
