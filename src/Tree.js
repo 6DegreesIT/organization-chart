@@ -8,11 +8,9 @@ import AmanPic from "./assets/Aman.jpeg";
 import AkankshaPic from "./assets/akanksha.jpeg";
 import PardeepRanaPic from "./assets/PardeepRana.png";
 import BalramPic from "./assets/Balram.jpg";
-import KunalRokhle from "./assets/KunalRokhle.jpg";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShivaliMalviyaPic from "./assets/ShivaliMalviya.jpg";
 import ShaliniLashkari from "./assets/ShaliniLashkari.jpg";
-import RaghvendraPic from "./assets/Raghvendra.jpg";
 import PriyalPic from "./assets/priyalMakwana.jpeg";
 import MahimaPic from "./assets/mahimaSoni.jpg";
 import DikshaPic from "./assets/Disha.png";
@@ -37,7 +35,6 @@ import DharamendraPic from "./assets/Dharm.jpg";
 import SakshiPersonnel from "./assets/SakshiD.jpg";
 import MonicaPersonnel from "./assets/MONICA.jpg";
 import RajendraPersonnel from "./assets/RAJENDRA.jpg";
-import PrafullPersonnel from "./assets/PRAFULL.jpg";
 import KrishnapalPersonnel from "./assets/KRISHNAPAL.jpg";
 import ManishPersonnel from "./assets/MANISH.jpg";
 
@@ -50,9 +47,12 @@ import ApoorvaPic from "./assets/apporvaBatra.jpg";
 import ShailendraPic from "./assets/Shailendra.jpg";
 import VibhorPic from "./assets/vibhor.jpeg";
 import NikleshV from "./assets/NikleshV.jpg";
-import AyushS from "./assets/AyushS.jpg";
+import AyushS from "./assets/Ayush_Sharma.jpg";
 import AnshulKhandelwal from "./assets/AnshulKhandelwal.jpg";
-
+import AmitMaskarePic from "./assets/Amit_Maskare.JPG";
+import AdarshDubey from "./assets/Adarsh_Dubey.jpeg";
+import Mili_Jain from "./assets/Mili_Jain.jpg";
+import Rishabh_Singh_Rajput from "./assets/Rishabh_Singh_Rajput.JPG";
 export const Vinay = {
   id: 1,
   person: {
@@ -91,7 +91,7 @@ export const VinaysTeam = [
       department: "",
       name: "Vibhor Mungee",
       title: "CTO",
-      totalReports: 3,
+      totalReports: 1,
     },
     hasChild: true,
     hasParent: true,
@@ -136,7 +136,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 2,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -165,7 +165,7 @@ export const KaynatsTeam = [
       department: "",
       name: "Nitika Lunia",
       title: "Team Lead - SEO Expert",
-      totalReports: 5,
+      totalReports: 4,
     },
     hasChild: false,
     hasParent: true,
@@ -184,20 +184,7 @@ export const KaynatsTeam = [
         hasParent: true,
         children: [],
       },
-      {
-        id: 11242,
-        person: {
-          id: 11242,
-          avatar: BhuvneshPic,
-          department: "",
-          name: "Bhuvnesh Mali",
-          title: "SEO Specialist",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
+      
       {
         id: 11243,
         person: {
@@ -234,26 +221,11 @@ export const KaynatsTeam = [
           department: "",
           name: "Shalini Lashkari",
           title: "Content Writer",
-          totalReports: 1,
+          totalReports: 0,
         },
         hasChild: false,
         hasParent: true,
-        children: [
-          {
-            id: 112451,
-            person: {
-              id: 112451,
-              avatar: RaghvendraPic,
-              department: "",
-              name: "Raghvendra Singh Chouhan",
-              title: "Content Writer Intern",
-              totalReports: 0,
-            },
-            hasChild: false,
-            hasParent: true,
-            children: [],
-          },
-        ],
+        children: [],
       },
     ],
   },
@@ -270,7 +242,50 @@ export const KaynatsTeam = [
     hasChild: false,
     hasParent: true,
     children: [],
-  }
+  },
+  {
+    id: 11271,
+    person: {
+      id: 11271,
+      avatar: Rishabh_Singh_Rajput,
+      department: "",
+      name: "Rishabh Singh Rajput",
+      title: "Sr. SEO Specialist",
+      totalReports: 2,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [
+      {
+        id: 112712,
+        person: {
+          id: 112712,
+          avatar: Mili_Jain,
+          department: "",
+          name: "Mili Jain",
+          title: "SEO Executive",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+      {
+        id: 112713,
+        person: {
+          id: 112713,
+          avatar: BhuvneshPic,
+          department: "",
+          name: "Bhuvnesh Mali",
+          title: "SEO Specialist",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+    ],
+  },
 ];
 
 export const VibhorsTeam = [
@@ -282,40 +297,13 @@ export const VibhorsTeam = [
       department: "",
       name: "Asif Qureshi",
       title: "Full-stack Lead",
-      totalReports: 5,
+      totalReports: 4,
     },
     hasChild: true,
     hasParent: true,
     // children: [],
   },
-  {
-    id: 124,
-    person: {
-      id: 124,
-      avatar: RajendraPersonnel,
-      department: "",
-      name: "Rajendra Patel",
-      title: "System Admin",
-      totalReports: 0,
-    },
-    hasChild: true,
-    hasParent: true,
-    // children: [],
-  },
-  {
-    id: 1242,
-    person: {
-      id: 1242,
-      avatar: AyushS,
-      department: "",
-      name: "Ayush Sharma",
-      title: "Cloud Engineer",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
+  
 ];
 
 export const AmitsTeam = [
@@ -348,27 +336,13 @@ export const AmitsTeam = [
     // children: [],
   },
   {
-    id: 1316,
-    person: {
-      id: 1316,
-      avatar: PrafullPersonnel,
-      department: "",
-      name: "Prafull Patidar",
-      title: "PHP Developer",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
-  {
     id: 1317,
     person: {
       id: 1317,
       avatar: AnshulPersonnel,
       department: "",
-      name: "Anshul Bhawasar",
-      title: "PHP Developer",
+      name: "Anshul Bhawsar",
+      title: "Sr. PHP Developer",
       totalReports: 0,
     },
     hasChild: false,
@@ -413,7 +387,7 @@ export const AkankshasTeam = [
       department: "",
       name: "Amit Bokde",
       title: "Solutions Architect",
-      totalReports: 6,
+      totalReports: 5,
     },
     hasChild: true,
     hasParent: true,
@@ -441,7 +415,7 @@ export const AkankshasTeam = [
       department: "",
       name: "Shabnam Khan",
       title: "Sr. Business Analyst",
-      totalReports: 2,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -467,6 +441,20 @@ export const AkankshasTeam = [
           avatar: AtulKumarMishraPic,
           department: "",
           name: "Atul Kumar Mishra ",
+          title: "Quality Analyst",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 13611,
+        person: {
+          id: 13611,
+          avatar: AdarshDubey,
+          department: "",
+          name: "Adarsh Dubey ",
           title: "Quality Analyst",
           totalReports: 0,
         },
@@ -515,25 +503,11 @@ export const AbhisheksTeam = [
       department: "",
       name: "Dharmendra Parmar",
       title: "Design Lead",
-      totalReports: 2,
+      totalReports: 1,
     },
     hasChild: true,
     hasParent: true,
     children: [
-      {
-        id: 13431,
-        person: {
-          id: 13431,
-          avatar: ImranPic,
-          department: "",
-          name: "Imran Khan",
-          title: "Web Designer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
       {
         id: 13432,
         person: {
@@ -557,7 +531,7 @@ export const AbhisheksTeam = [
       avatar: DivyaDPic,
       department: "",
       name: "Divya Doshi",
-      title: "Web Developer",
+      title: "Sr. Web Developer",
       totalReports: 0,
     },
     hasChild: false,
@@ -571,7 +545,7 @@ export const AbhisheksTeam = [
       avatar: KewalPic,
       department: "",
       name: "Kewal Sharma",
-      title: "Web Developer",
+      title: "Sr. Web Developer",
       totalReports: 0,
     },
     hasChild: false,
@@ -628,6 +602,119 @@ export const AnkitsTeam = [
     id: 121,
     person: {
       id: 121,
+      avatar: AmitMaskarePic,
+      department: "",
+      name: "Amit Maskare",
+      title: "Sr. Lead Full Stack Developer",
+      totalReports: 5,
+    },
+    hasChild: true,
+    hasParent: true,
+    children: [
+      {
+        id: 12122,
+        person: {
+          id: 12122,
+          avatar: MonicaPersonnel,
+          department: "",
+          name: "Monica Patel",
+          title: "Sr. Android Developer/Frontend developer",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 12123,
+        person: {
+          id: 12123,
+          avatar:
+            BalramPic,
+          department: "",
+          name: "Balram Patidar",
+          title: "Sr. Full Stack Developer",
+          totalReports: 2,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [{
+          id: 1232411,
+          person: {
+            id: 1232411,
+            avatar: PriyalPic,
+            department: "",
+            name: "Priyal Makwana",
+            title: "Junior Full Stack Developer",
+            totalReports: 0,
+          },
+          hasChild: false,
+          hasParent: true,
+          // children: [],
+        },
+        {
+          id: 1232412,
+          person: {
+            id: 1232412,
+            avatar: MahimaPic,
+            department: "",
+            name: "Mahima Soni",
+            title: "Junior Full Stack Developer",
+            totalReports: 0,
+          },
+          hasChild: false,
+          hasParent: true,
+          // children: [],
+        }],
+      },
+      {
+        id: 12311,
+        person: {
+          id: 12311,
+          avatar: AmanPic,
+          department: "",
+          name: "Aman Kanojia",
+          title: "Full Stack Developer",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 12312,
+        person: {
+          id: 12312,
+          avatar: ShailendraPic,
+          department: "",
+          name: "Shailendra Kewat",
+          title: "Sr. Front End Developer",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 1212,
+        person: {
+          id: 1212,
+          avatar: ImranPic,
+          department: "",
+          name: "Imran Khan",
+          title: "Web Designer",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 12121,
+    person: {
+      id: 12121,
       avatar: SakshiPersonnel,
       department: "",
       name: "Sakshi Dua",
@@ -639,101 +726,31 @@ export const AnkitsTeam = [
     children: [],
   },
   {
-    id: 1235,
+    id: 12313,
     person: {
-      id: 1235,
-      avatar: MonicaPersonnel,
+      id: 12313,
+      avatar: RajendraPersonnel,
       department: "",
-      name: "Monica Patel",
-      title: "Sr. Android Developer/Frontend developer",
+      name: "Rajendra Patel",
+      title: "System Admin",
+      totalReports: 0,
+    },
+    hasChild: true,
+    hasParent: true,
+    // children: [],
+  },
+  {
+    id: 12314,
+    person: {
+      id: 12314,
+      avatar: AyushS,
+      department: "",
+      name: "Ayush Sharma",
+      title: "Cloud Engineer",
       totalReports: 0,
     },
     hasChild: false,
     hasParent: true,
     // children: [],
   },
-  {
-    id: 12324,
-    person: {
-      id: 12324,
-      avatar:
-        BalramPic,
-      department: "",
-      name: "Balram Patidar",
-      title: "Sr. Full Stack Developer",
-      totalReports: 1,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [{
-      id: 123241,
-      person: {
-        id: 123241,
-        avatar: KunalRokhle,
-        department: "",
-        name: "Kunal Rokhle",
-        title: "MERN Stack Developer",
-        totalReports: 2,
-      },
-      hasChild: false,
-      hasParent: true,
-      children: [{
-        id: 1232411,
-        person: {
-          id: 1232411,
-          avatar: PriyalPic,
-          department: "",
-          name: "Priyal Makwana",
-          title: "Junior Full Stack Developer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      },
-      {
-        id: 1232412,
-        person: {
-          id: 1232412,
-          avatar: MahimaPic,
-          department: "",
-          name: "Mahima Soni",
-          title: "Junior Full Stack Developer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      }]
-    },],
-  },
-  {
-    id: 12311,
-    person: {
-      id: 12311,
-      avatar: AmanPic,
-      department: "",
-      name: "Aman Kanojia",
-      title: "Full Stack Developer",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
-  {
-    id: 12312,
-    person: {
-      id: 12312,
-      avatar: ShailendraPic,
-      department: "",
-      name: "Shailendra Kewat",
-      title: "Sr. Front End Developer",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
-
 ];
