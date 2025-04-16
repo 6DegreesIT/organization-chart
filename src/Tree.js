@@ -38,6 +38,7 @@ import VinodPersonnel from "./assets/VINOD.jpg";
 import ShabnamPersonnel from "./assets/Shabnam.jpeg";
 import GautamPic from "./assets/Gautam.jpg";
 import ApoorvaPic from "./assets/apporvaBatra.jpg";
+import AkshatMandloi from "./assets/AkshatMandloi.JPG";
 import ShailendraPic from "./assets/Shailendra.jpg";
 import VibhorPic from "./assets/vibhor.jpeg";
 import NikleshV from "./assets/NikleshV.jpg";
@@ -437,11 +438,26 @@ export const AkankshasTeam = [
           department: "",
           name: "Apoorva Batra",
           title: "Assistant Business Analyst cum Project Co-Ordinator",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
-        // children: [],
+        children: [
+          {
+            id: 13601,
+            person: {
+              id: 13601,
+              avatar: AkshatMandloi,
+              department: "",
+              name: "Akshat Mandloi",
+              title: "Jr. UI/UX Designer",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            // children: [],
+          },
+        ],
       },
       {
         id: 13611,
