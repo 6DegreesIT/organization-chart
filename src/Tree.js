@@ -49,6 +49,8 @@ import AdarshDubey from "./assets/Adarsh_Dubey.jpeg";
 import DivyaSanodiya from "./assets/DivyaSanodiya.jpg";
 import VanshikaHaryani from "./assets/VanshikaHaryani.jpeg";
 import Mili_Jain from "./assets/Mili_Jain.jpg";
+import AakashMehra from "./assets/AakashMehra.jpeg";
+import AnubhaParashar from "./assets/AnubhaParashar.png";
 export const Vinay = {
   id: 1,
   person: {
@@ -174,7 +176,7 @@ export const KaynatsTeam = [
           department: "",
           name: "Atul Paliwal",
           title: "SEO Specialist",
-          totalReports: 2,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
@@ -186,20 +188,6 @@ export const KaynatsTeam = [
               avatar: VanshikaHaryani,
               department: "",
               name: "Vanshika Haryani",
-              title: "SEO Trainee",
-              totalReports: 0,
-            },
-            hasChild: false,
-            hasParent: true,
-            children: [],
-          },
-          {
-            id: 112412,
-            person: {
-              id: 11241,
-              avatar: DivyaSanodiya,
-              department: "",
-              name: "Divya Sanodiya",
               title: "SEO Trainee",
               totalReports: 0,
             },
@@ -232,11 +220,26 @@ export const KaynatsTeam = [
           department: "",
           name: "Niklesh Verma",
           title: "SEO Executive",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
-        children: [],
+        children: [
+          {
+            id: 112441,
+            person: {
+              id: 112441,
+              avatar: AnubhaParashar,
+              department: "",
+              name: "Anubha Parashar",
+              title: "SEO Trainee",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            children: [],
+          },
+        ],
       },
       {
         id: 11245,
@@ -260,11 +263,26 @@ export const KaynatsTeam = [
           department: "",
           name: "Mili Jain",
           title: "SEO Executive",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
-        children: [],
+        children: [
+          {
+            id: 1127121,
+            person: {
+              id: 1127121,
+              avatar: AakashMehra,
+              department: "",
+              name: "Aakash Mehra",
+              title: "SEO Executive",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            children: [],
+          },
+        ],
       },
       {
         id: 112713,
@@ -274,11 +292,26 @@ export const KaynatsTeam = [
           department: "",
           name: "Bhuvnesh Mali",
           title: "SEO Specialist",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
-        children: [],
+        children: [
+          {
+            id: 112412,
+            person: {
+              id: 11241,
+              avatar: DivyaSanodiya,
+              department: "",
+              name: "Divya Sanodiya",
+              title: "SEO Trainee",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            children: [],
+          },
+        ],
       },
     ],
   },
