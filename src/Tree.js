@@ -11,7 +11,7 @@ import BalramPic from "./assets/Balram.jpg";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShaliniLashkari from "./assets/ShaliniLashkari.jpg";
 import PriyalPic from "./assets/priyalMakwana.jpeg";
-import DikshaPic from "./assets/Disha.png";
+
 import AbdulAlimPic from "./assets/AbdulAlim.jpg";
 
 import VinayPersonnel from "./assets/VinayD.jpg";
@@ -51,6 +51,9 @@ import VanshikaHaryani from "./assets/VanshikaHaryani.jpeg";
 import Mili_Jain from "./assets/Mili_Jain.jpg";
 import AakashMehra from "./assets/AakashMehra.jpeg";
 import AnubhaParashar from "./assets/AnubhaParashar.png";
+import HarshGangwane from "./assets/HarshGangwane.jpeg";
+import SandeepMalviya from "./assets/SandeepMalviya.jpg";
+
 export const Vinay = {
   id: 1,
   person: {
@@ -163,7 +166,7 @@ export const KaynatsTeam = [
       department: "",
       name: "Nitika Lunia",
       title: "Team Lead - SEO Expert",
-      totalReports: 6,
+      totalReports: 5,
     },
     hasChild: false,
     hasParent: true,
@@ -196,21 +199,6 @@ export const KaynatsTeam = [
             children: [],
           },
         ],
-      },
-      
-      {
-        id: 11243,
-        person: {
-          id: 11243,
-          avatar: DikshaPic,
-          department: "",
-          name: "Disha Parwani",
-          title: "SEO Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
       },
       {
         id: 11244,
@@ -323,6 +311,20 @@ export const KaynatsTeam = [
       department: "",
       name: "Pardeep Rana",
       title: "PPC / Shopping Campaign Marketing Executive",
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [],
+  },
+  {
+    id: 11273,
+    person: {
+      id: 11273,
+      avatar: SandeepMalviya,
+      department: "",
+      name: "Sandeep Malviya",
+      title: "Sr. SEO Specialist",
       totalReports: 0,
     },
     hasChild: false,
@@ -516,11 +518,26 @@ export const AkankshasTeam = [
       department: "",
       name: "Anshul Khandelwal",
       title: "BDE",
-      totalReports: 0,
+      totalReports: 1,
     },
     hasChild: true,
     hasParent: true,
-    // children: [],
+    children: [
+      {
+        id: 1371,
+        person: {
+          id: 1371,
+          avatar: HarshGangwane,
+          department: "",
+          name: "Harsh Gangwane",
+          title: "BD Trainee",
+          totalReports: 0,
+        },
+        hasChild: true,
+        hasParent: true,
+        // children: [],
+      },
+    ],
   },
 ];
 
