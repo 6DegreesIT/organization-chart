@@ -11,7 +11,8 @@ import {
   AnkitsTeam,
   AmitsTeam,
   AkankshasTeam,
-  AbhisheksTeam
+  AbhisheksTeam,
+  NiharikaTeam
 } from './Tree'
 
 
@@ -37,6 +38,8 @@ export default class App extends React.Component {
         return VibhorsTeam
       case 13:
         return AkankshasTeam
+      case 14:
+      return NiharikaTeam
       case 112:
         return KaynatsTeam
       case 123:
