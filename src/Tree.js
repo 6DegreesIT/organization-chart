@@ -24,7 +24,7 @@ import ImranPic from "./assets/Imran.jpg";
 import SakshiPandit from "./assets/Sakshi-Pandit.JPG";
 import NitikaPic from "./assets/NITIKA.jpg";
 import AtulPaliwal from "./assets/AtulPaliwal.jpg";
-
+import SanjanaVarun from "./assets/SanjanaVarun.PNG";
 import DharamendraPic from "./assets/Dharm.jpg";
 
 import ShubhamJain from "./assets/Shubham-Jain.jpg";
@@ -218,12 +218,25 @@ export const KaynatsTeam = [
           department: "",
           name: "Atul Paliwal",
           title: "SEO Specialist",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
         children: [
-          
+            {
+        id: 11242,
+        person: {
+          id: 11242,
+          avatar: SanjanaVarun,
+          department: "",
+          name: "Sanjana Varun",
+          title: "SEO Trainee",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
         ],
       },
       {
